@@ -8,9 +8,11 @@ GIF:
 
 ![ezgif-2-028b71a335](https://user-images.githubusercontent.com/30918023/172904557-aad15d9f-f5e3-4a74-a073-9fd10afc0223.gif)
 
-Screenshot:
+Adding Responsive navbar:
 
-<img width="683" alt="image" src="https://user-images.githubusercontent.com/30918023/172900846-44ba39f3-29d9-4b80-ab85-c079822e9a83.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/30918023/172982663-2630fffe-817f-4a86-8f39-6b9f869845c3.png">
+
+<img width="347" alt="image" src="https://user-images.githubusercontent.com/30918023/172982869-b90e3ba5-cef7-40d1-87a0-a2a5f279177d.png">
 
 
 ### Submission
