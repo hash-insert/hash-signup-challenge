@@ -4,4 +4,117 @@ body{
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
 	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+	
+	
+	
 }
+header{
+	margin:0;
+	padding: 0;
+	background-color: azure;
+	width: 100vw;
+	display: flex;
+	height: 50px;
+  align-items:center;
+	
+
+}
+.card{
+
+margin-top: 100px;
+margin-left: 700px;
+	width: 350px;
+	height: 500px;
+	
+	border-radius: 15px;
+	box-shadow:  5px 5px 5px 5px;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+.form{
+	display: flex;
+	padding:20px;
+	 flex-direction: column;
+
+	 align-items: center;
+	   text-align: center; 
+	 
+}
+.box{
+	width:250px;
+	height: 50px;
+	margin: 5px;
+	border-radius: 10px;
+}
+.btn{
+	margin: 5px;
+	width:190px;
+height: 40px;
+background-color: blueviolet;
+border-radius: 10px;
+color: white;
+font-size: 20px;
+}
+
+
+
+.form2{
+	
+	width: 350px;
+	height: 900px;
+	
+	
+	
+	align-items: center;
+	text-align: center;
+	transform: translateY(125px);
+	transition: all 1.5s ease-out;
+	background-color: aliceblue;
+	border-radius: 60%/10%;
+
+} 
+
+
+.form2 label{
+	color:blueviolet;
+}
+
+#check:checked ~ .form2 {
+
+ transform: translateY(-250px)
+	
+}
+#check:checked ~ .form label{
+	transform:scale(1)
+}
+#check:checked ~ .form2 label{
+	transform:scale(0.6)
+}
+
+label{
+	color:white;
+	font-size: 30px;
+	transform: scale(0.5);
+	
+}
+#check{
+	display: none;
+}
+li{
+  list-style:none;
+}
+ul{
+  display:flex;
+  margin-left:700px;
+  
+}
+li{
+ padding-left: 30px;
+ padding-right:30px;
+ font-size: 30px;
+ }
+
+	
