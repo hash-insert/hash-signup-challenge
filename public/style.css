@@ -55,7 +55,7 @@ label{
     display: flex;
     justify-content: center;
     cursor: pointer;
-    transition: all ease-in-out;
+    transition: 0.8s ease-in-out;
 }
 
 .signin label{
@@ -73,7 +73,7 @@ label{
     width: 350px;
     margin-top: 120px;
     transform:translateY(-50px);
-    transition: 1s ease-in-out;
+    transition: 1.5s ease-in-out;
 }
 
 .signin input{
