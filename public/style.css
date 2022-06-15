@@ -1,7 +1,293 @@
 body{
-	margin: 0;
-	padding: 0;
-	min-height: 100vh;
-	font-family: 'Jost', sans-serif;
-	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background: linear-gradient(to bottom, #0F0C29, #302B63, #24243E);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+#signup{
+    text-align: center;
+    width: 350px;
+    height: 500px;
+    background: linear-gradient(to bottom,#0F0C29, #302B63, #24243E);
+    border-radius: 10px;
+    margin-top: 70px;
+    box-shadow: 5px 5px 40px 10px;
+    overflow: hidden;
+}
+.inputforms{
+    padding: 70px 70px 70px 60px;
+    margin-left: 5px;
+}
+input{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom:15px;
+}
+button{
+    background-color: blueviolet;
+    width: 160px;
+    height: 40px;
+    color: white;
+    margin-left: 5px;
+    cursor:pointer;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    background-color: #0F0C29;
+}
+label{
+    color:white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all ease-in-out;
+}
+.signin label{
+    color: #302B63;
+}
+#link{
+    display: none;
+}
+.signin{
+    background-color:white;
+    border-radius: 90% / 15%;
+    height: 500px;
+    width: 350px;
+    margin-top: 120px;
+    transform:translateY(-50px);
+    transition: 1s ease-in-out;
+}
+.signin input{
+    background-color:whitesmoke;
+    outline: none;
+}
+#link:checked ~ .signin{
+    transform: translateY(-400px);
+}
+#link:checked ~ .signin label{
+    transform: scale(1.25);
+}
+#link:checked ~ .signup label{
+    transform: scale(0.75);
+}
+nav{
+    display: flex;
+    background-color: white;
+    top: 0;
+    height: 4rem;
+    width: 100vw;
+    position: fixed;
+    background-color: rgb(146, 206, 234);
+}
+nav a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin-left: 2px;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin-right: 2rem;
+}
+nav ul a{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 3rem;
+    border-radius: 3px;
+}
+nav ul a:hover{
+    color: rgb(45, 0, 128);
+}
+nav a:hover{
+    color: rgb(76, 26, 162);
+}
+@media only screen and (max-width:500px){
+    nav{
+        display: inline;
+        justify-content: center;
+        top: 0;
+        height: 15rem;
+        position: absolute;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 35vw;
+    }
+    nav a{
+        margin-left: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    #main{
+        margin-top: 250px;
+    }
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Jost', sans-serif;
+    background: linear-gradient(to bottom, #0F0C29, #302B63, #24243E);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#signup{
+    text-align: center;
+    width: 350px;
+    height: 500px;
+    background: linear-gradient(to bottom,#0F0C29, #302B63, #24243E);
+    border-radius: 10px;
+    margin-top: 70px;
+    box-shadow: 5px 5px 40px 10px;
+    overflow: hidden;
+}
+.inputforms{
+    padding: 70px 70px 70px 60px;
+    margin-left: 5px;
+}
+input{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom:15px;
+}
+button{
+    background-color: blueviolet;
+    width: 160px;
+    height: 40px;
+    color: white;
+    margin-left: 5px;
+    cursor:pointer;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    background-color: #0F0C29;
+}
+label{
+    color:white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: all ease-in-out;
+}
+.signin label{
+    color: #302B63;
+}
+#link{
+    display: none;
+}
+.signin{
+    background-color:white;
+    border-radius: 90% / 15%;
+    height: 500px;
+    width: 350px;
+    margin-top: 120px;
+    transform:translateY(-50px);
+    transition: 1s ease-in-out;
+}
+.signin input{
+    background-color:whitesmoke;
+    outline: none;
+}
+#link:checked ~ .signin{
+    transform: translateY(-400px);
+}
+#link:checked ~ .signin label{
+    transform: scale(1.25);
+}
+#link:checked ~ .signup label{
+    transform: scale(0.75);
+}
+nav{
+    display: flex;
+    background-color: white;
+    top: 0;
+    height: 4rem;
+    width: 100vw;
+    position: fixed;
+    background-color: rgb(146, 206, 234);
+}
+nav a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin-left: 2px;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin-right: 2rem;
+}
+nav ul a{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 3rem;
+    border-radius: 3px;
+}
+nav ul a:hover{
+    color: rgb(45, 0, 128);
+}
+nav a:hover{
+    color: rgb(76, 26, 162);
+}
+@media only screen and (max-width:500px){
+    nav{
+        display: inline;
+        justify-content: center;
+        top: 0;
+        height: 15rem;
+        position: absolute;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 35vw;
+    }
+    nav a{
+        margin-left: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    #main{
+        margin-top: 250px;
+    }
+}
+
+
+
