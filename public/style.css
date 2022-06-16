@@ -1,7 +1,171 @@
-body{
+body {
 	margin: 0;
 	padding: 0;
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
 	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+
+
+}
+ 
+header {
+	margin: 0;
+	padding: 0;
+	background-color: azure;
+	width:100vw;
+	display: flex;
+align-items: center;
+	height: auto;
+	
+
+
+} 
+.head{
+	display: flex;
+	align-items: center;
+}
+.menu{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 100%;
+}
+ul{
+	display: flex;
+	
+}
+
+.card {
+
+
+	width: 350px;
+	height: 500px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px 5px;
+	overflow: hidden;
+	margin: auto;
+
+	
+
+
+}
+
+.form {
+	
+	/* padding: 20px; */
+	width: 100%;
+	height: 100%;
+	position: relative;
+
+	
+}
+
+input {
+	width: 250px;
+	height: 50px;
+	margin: 20px auto;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.btn {
+	margin: 5px auto;
+	width: 190px;
+	height: 40px;
+	background-color: rgb(104, 206, 100);
+	border-radius: 10px;
+	color: white;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+
+.form2 {
+
+	width: 350px;
+	height: 900px;
+
+
+
+	align-items: center;
+	text-align: center;
+	transform: translateY(-45px);
+	transition: all 1.5s ease-out;
+	background-color: aliceblue;
+	border-radius: 60%/10%;
+
+}
+
+
+.form2 label {
+	color: blueviolet;
+	transform: scale(0.6);
+}
+
+#check:checked~.form2 {
+
+	transform: translateY(-350px)
+}
+
+#check:checked~.form label {
+	transform: scale(1)
+}
+
+#check:checked~.form2 label {
+	transform: scale(1)
+}
+
+label {
+	color: white;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	transition: 0.5s ease-in-out;
+
+
+}
+
+#check {
+	display: none;
+}
+
+
+
+
+
+
+li {
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 30px;
+	list-style: none;
+	
+}
+@media screen and (max-width:600px) {
+	header{
+		display: flex;
+		flex-direction: column;
+	
+	}
+ul{
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.menu{
+		display: flex;
+		justify-content: center;
+	
+	}
 }
