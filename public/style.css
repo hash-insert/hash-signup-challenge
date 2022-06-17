@@ -81,7 +81,8 @@ nav ul a:hover{
 	transition: all ease-in-out;	
 }
 .signin-box label{
-	color: white;
+	color: #0f0c29 ;
+	font-size: 3rem;
 	transform: scale(.6);
 }
 .inputs{
