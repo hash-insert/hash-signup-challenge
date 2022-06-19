@@ -1,10 +1,47 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>SingUp-SignIn</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
 </head>
+
 <body>
+	<nav>
+		<a href="#">#HashInsert</a>
+		<ul>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Dashboard</a></li>
+			<li><a href="#">Update</a></li>
+
+
+		</ul>
+	</nav>
+	<div class="main">
+		<input type="checkbox" name="changer" id="check">
+		<div class="singup-box">
+			<form>
+				<label for="check">Sign up</label>
+				<div class="inputs">
+					<input type="text" name="uname" placeholder="User name" required>
+					<input type="email" name="uemail" placeholder="Email" required>
+					<input type="password" name="upwd" placeholder="Password" required><br>
+					<button>Sign up</button>
+				</div>
+			</form>
+		</div>
+		<div class="signin-box">
+			<form>
+				<label for="check">Sign In</label>
+				<div class="inputs">
+					<input type="email" name="uemail" alt="signin-uname" placeholder="Email">
+					<input type="password" name="upwd" alt="upwd" placeholder="Password">
+					<button>Sign In</button>
+				</div>
+			</form>
+		</div>
+	</div>
 </body>
+
 </html>
